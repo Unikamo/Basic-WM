@@ -1,0 +1,16 @@
+1. Variables
+	Display *: creates the Display
+	XWindowAttributes: Attributes for the Window settings
+	XButtonEventStart: used for move/resize
+	XEvent: same
+
+2. Yes
+	XGrabKey: Grabs keyboard key
+	XGrabButton: Grab ptr buttons
+
+3. Infinite loop
+	start.subwindow = None: Idk yet
+	for (;;): Launches the WM
+
+	XNextEvent: Wait for next user input
+
