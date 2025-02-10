@@ -1,7 +1,7 @@
 1. Variables
 	Display *: creates the Display
 	XWindowAttributes: Attributes for the Window settings
-	XButtonEventStart: used for move/resize
+	XButtonEvent: used for move/resize
 	XEvent: same
 
 2. Yes
