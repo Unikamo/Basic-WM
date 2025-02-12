@@ -15,6 +15,7 @@ int main(void)
 	b_event.subwindow = None;
 
 	for (;;) {
-		XNextEvent(dply, x_evnt);
+		XNextEvent(dply, &x_evnt);
+		printf("Received event : %s\n", x_evnt.type);
 	}
 }
